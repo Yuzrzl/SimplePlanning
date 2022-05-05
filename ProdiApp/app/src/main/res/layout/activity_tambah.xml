@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TambahActivity"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul :"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_title"
+        android:drawablePadding="5dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tittle"
+        android:textColorHint="@color/orange"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ed_tittle"
+        android:drawableEnd="@drawable/ic_add"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Mulai :"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_date"
+                android:drawablePadding="5dp"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/ed_date_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableEnd="@drawable/ic_add"
+                android:focusable="true"
+                android:textColorHint="@color/orange"
+                android:hint="Date Start"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:textSize="12dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Selesai:"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_date"
+                android:drawablePadding="5dp"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/ed_date_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                android:drawableEnd="@drawable/ic_add"
+                android:focusable="true"
+                android:hint="Date End"
+                android:textColorHint="@color/orange"
+                android:padding="10dp"
+                android:textSize="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi :"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="5dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:id="@+id/ed_location"
+        android:textColorHint="@color/orange"
+        android:drawableEnd="@drawable/ic_add"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Caption :"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_caption"
+        android:drawablePadding="5dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"/>
+
+    <EditText
+        android:id="@+id/ed_caption"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_margin="10dp"
+        android:hint="Caption"
+        android:padding="8dp"
+        android:textColorHint="@color/orange"
+        android:drawableEnd="@drawable/ic_add"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black"
+        android:text="simpan"
+        android:id="@+id/btn_upload"/>
+</LinearLayout>

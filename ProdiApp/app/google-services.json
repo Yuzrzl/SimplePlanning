@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1001153965790",
+    "project_id": "planner-8e2bb",
+    "storage_bucket": "planner-8e2bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001153965790:android:665059f12d622ac1821c4f",
+        "android_client_info": {
+          "package_name": "com.example.prodiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001153965790-moucfqki0bcpfjgj8ot9ecd6rvrkeml3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGyKXncgwzTNQz5NAowTvIOUD9GtKwR-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001153965790-moucfqki0bcpfjgj8ot9ecd6rvrkeml3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
